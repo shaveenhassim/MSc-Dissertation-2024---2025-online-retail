@@ -1,0 +1,15 @@
+name: msc-dissertation
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - jupyterlab
+  - pip
+  - pip:
+    - plotly
+    - openpyxl
