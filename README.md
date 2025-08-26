@@ -29,10 +29,10 @@ Data Cleaning & Preprocessing: Removal of missing values, duplicates, and outlie
 Descriptive Statistics: Central tendency, dispersion, and distribution analysis of key variables (Quantity, UnitPrice).
 
 **Hypothesis Testing:**
--Shapiro-Wilk Test — tested normality of sales data.
--t-Test — compared mean unit prices between UK and Germany.
--ANOVA — examined differences in mean quantities sold across multiple countries.
--Regression Analysis: Linear regression to evaluate the relationship between price and quantity sold.
+-`Shapiro-Wilk Test` — tested normality of sales data.
+-`t-Test` — compared mean unit prices between UK and Germany.
+-`ANOVA` — examined differences in mean quantities sold across multiple countries.
+-`Regression Analysis`: Linear regression to evaluate the relationship between price and quantity sold.
 
 Visualization: Histograms, boxplots, heatmaps, and comparative plots to support statistical findings.
 
