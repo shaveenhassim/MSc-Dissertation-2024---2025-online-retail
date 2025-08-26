@@ -3,21 +3,19 @@
 **Author:** Mohomed Shaveen Hassim  
 **Supervisor:** Dr. Swathi Ganesan  
 **Institution:** York St John University — MSc Data Science  
-**Date:** September 2024
+**Date:** September 2024 - September 2025
 
 ---
 
 ## Summary
-This repository contains materials, code and (optionally) the dissertation PDF for the MSc research titled _"Exploring Descriptive and Inferential Statistics using Python for Data-Driven Decision-Making"_. The study applies descriptive and inferential statistical techniques (Shapiro-Wilk, t-test, ANOVA, regression) to the Online Retail dataset to extract business insights on customer behaviour, pricing and purchase patterns.
+This repository contains materials, code and the dissertation PDF for the MSc research titled _"Exploring Descriptive and Inferential Statistics using Python for Data-Driven Decision-Making"_. The study applies descriptive and inferential statistical techniques (Shapiro-Wilk, t-test, ANOVA, regression) to the Online Retail dataset to extract business insights on customer behaviour, pricing and purchase patterns.
 
 ---
 
 ## Contents
 - `docs/` — dissertation PDF and supporting documents.
 - `notebooks/` — Jupyter notebooks used for analysis:
-  - `01-data-cleaning.ipynb`
-  - `02-eda.ipynb`
-  - `03-inferential-tests.ipynb`
+  - `Research.ipynb`
 - `src/` — reusable Python scripts for preprocessing, plotting, and tests.
 - `data/` — data handling instructions (raw data is **NOT** uploaded in full).
 - `figures/` — key output figures.
@@ -25,8 +23,34 @@ This repository contains materials, code and (optionally) the dissertation PDF f
 
 ---
 
-## Quick start (local)
-1. Clone the repository:
-```bash
-git clone https://github.com/shaveenhassim/online-retail-dissertation.git
-cd online-retail-dissertation
+## Key Analyses and Statistical Test
+
+Data Cleaning & Preprocessing: Removal of missing values, duplicates, and outliers; conversion of data types.
+Descriptive Statistics: Central tendency, dispersion, and distribution analysis of key variables (Quantity, UnitPrice).
+
+**Hypothesis Testing:**
+-Shapiro-Wilk Test — tested normality of sales data.
+-t-Test — compared mean unit prices between UK and Germany.
+-ANOVA — examined differences in mean quantities sold across multiple countries.
+-Regression Analysis: Linear regression to evaluate the relationship between price and quantity sold.
+
+Visualization: Histograms, boxplots, heatmaps, and comparative plots to support statistical findings.
+
+---
+
+## Methodology
+
+-Data Collection & Cleaning — Prepared the Online Retail dataset by filtering invalid records and correcting formats.
+-Exploratory Data Analysis (EDA) — Generated descriptive summaries and visualized sales behaviour.
+-Inferential Statistics — Applied hypothesis tests and regression to validate patterns and relationships.
+-Business Interpretation — Linked statistical outcomes to actionable insights for pricing, inventory, and strategy.
+
+---
+
+**Insights**
+
+-Non-Normal Distribution: Both quantity and unit price showed skewness, highlighting the importance of using appropriate statistical methods.
+-Pricing Consistency: No significant mean price difference between UK and Germany, suggesting standardized pricing across these markets.
+-Regional Differences: ANOVA confirmed significant variations in quantities sold between countries, informing localized sales strategies.
+-Weak Price-Quantity Correlation: Regression showed only a limited relationship between price and purchase volume, indicating other factors drive demand.
+-Business Value: Findings demonstrate how statistical testing supports evidence-based decision-making in e-commerce.
