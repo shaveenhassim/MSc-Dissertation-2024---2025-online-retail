@@ -17,7 +17,7 @@ This repository contains materials, code and the dissertation PDF for the MSc re
 - `notebooks/` — Jupyter notebooks used for analysis:
   - `Research.ipynb`
 - `src/` — reusable Python scripts for preprocessing, plotting, and tests.
-- `data/` — data handling instructions (raw data is **NOT** uploaded in full).
+- `data/` — data handling instructions.
 - `figures/` — key output figures.
 - `requirements.txt` — required Python packages.
 
@@ -29,9 +29,9 @@ Data Cleaning & Preprocessing: Removal of missing values, duplicates, and outlie
 Descriptive Statistics: Central tendency, dispersion, and distribution analysis of key variables (Quantity, UnitPrice).
 
 **Hypothesis Testing:**
--`Shapiro-Wilk Test` — tested normality of sales data.
--`t-Test` — compared mean unit prices between UK and Germany.
--`ANOVA` — examined differences in mean quantities sold across multiple countries.
+-`Shapiro-Wilk Test/` — tested normality of sales data.
+-`t-Test/` — compared mean unit prices between UK and Germany.
+-`ANOVA/` — examined differences in mean quantities sold across multiple countries.
 -`Regression Analysis`: Linear regression to evaluate the relationship between price and quantity sold.
 
 Visualization: Histograms, boxplots, heatmaps, and comparative plots to support statistical findings.
@@ -40,9 +40,9 @@ Visualization: Histograms, boxplots, heatmaps, and comparative plots to support 
 
 ## Methodology
 
--Data Collection & Cleaning — Prepared the Online Retail dataset by filtering invalid records and correcting formats.
--Exploratory Data Analysis (EDA) — Generated descriptive summaries and visualized sales behaviour.
--Inferential Statistics — Applied hypothesis tests and regression to validate patterns and relationships.
+-Data Collection & Cleaning/ — Prepared the Online Retail dataset by filtering invalid records and correcting formats.
+-Exploratory Data Analysis (EDA)/ — Generated descriptive summaries and visualized sales behaviour.
+-Inferential Statistics/ — Applied hypothesis tests and regression to validate patterns and relationships.
 -Business Interpretation — Linked statistical outcomes to actionable insights for pricing, inventory, and strategy.
 
 ---
